@@ -1,10 +1,6 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View } from 'react-native';
 
-const App: React.FC = () => (
-  <View> 
-    <Text>Hello World</Text> 
-  </View>
-);
+const App: React.FC = () => <View />;
 
 export default App;
